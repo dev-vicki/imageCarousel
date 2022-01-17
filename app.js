@@ -1,6 +1,6 @@
 const image = document.getElementById("center");
 
-fetch("https://jsonplaceholder.typicode.com/photos?_limit=20")
+fetch("https://jsonplaceholder.typicode.com/photos?_limit=5")
 .then((res) => {
   return res.json();
 })
@@ -13,3 +13,4 @@ fetch("https://jsonplaceholder.typicode.com/photos?_limit=20")
         console.log(value.url)
     })
 })
+
